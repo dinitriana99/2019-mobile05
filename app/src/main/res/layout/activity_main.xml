@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="handlerClickStaticFragment"/>
+        android:onClick="handlerClickStaticFragment"
+        />
 
     <Button
         android:id="@+id/btn_dynamic_fragment"
@@ -26,7 +27,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_static_fragment"
-        android:onClick="handlerClickDynamicFragment"/>
+        android:onClick="handlerClickDynamicFragment"
+        />
 
     <Button
         android:id="@+id/btn_praktikum_fragment"
