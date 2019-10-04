@@ -22,24 +22,21 @@
         android:id="@+id/btn_dynamic_fragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:onClick="handlerClickDynamicFragment"
         android:text="Contoh Dynamic Fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_static_fragment"
-        android:onClick="handlerClickDynamicFragment"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/btn_static_fragment" />
 
     <Button
         android:id="@+id/btn_praktikum_fragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:onClick="handlerClickPraktikumFragment"
         android:text="Tugas Praktikum Fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_dynamic_fragment"
-        android:onClick="handlerClickPraktikumFragment"/>
+        app:layout_constraintTop_toBottomOf="@+id/btn_dynamic_fragment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
